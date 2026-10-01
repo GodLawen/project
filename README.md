@@ -36,3 +36,11 @@ Wiki проекта: <https://github.com/GodLawen/project/wiki>
 2. Скопируйте `.env.example` в `.env` и вставьте токен.
 3. Установите зависимости: `pip install aiogram`.
 4. Запустите бота: `python -m src.habittrack`.
+
+## Навигация
+
+- [Wiki](https://github.com/GodLawen/project/wiki)
+- [Концепция](https://github.com/GodLawen/project/wiki/Concept)
+- [Идеи](https://github.com/GodLawen/project/wiki/Ideas)
+- [Заинтересованные стороны](https://github.com/GodLawen/project/wiki/Stakeholders)
+- [Документация в репозитории](docs/index.md)
