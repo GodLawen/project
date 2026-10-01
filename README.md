@@ -31,7 +31,7 @@ Wiki проекта: <https://github.com/GodLawen/project/wiki>
 - `.env.example` — пример настроек; реальный `.env` с токеном в Git не попадает
 
 ## Как запустить
-
+«Статус: MVP в разработке»
 1. Создайте бота у @BotFather и получите токен.
 2. Скопируйте `.env.example` в `.env` и вставьте токен.
 3. Установите зависимости: `pip install aiogram`.
