@@ -21,3 +21,11 @@ Python, aiogram
 ## Документация
 
 Wiki проекта: <https://github.com/GodLawen/project/wiki>
+
+## Структура репозитория
+
+- `docs/` — документация проекта
+- `data/` — шаблоны сообщений и справочники
+- `src/habittrack/` — код бота (`handlers/` — обработчики команд)
+- `tests/` — тесты
+- `.env.example` — пример настроек; реальный `.env` с токеном в Git не попадает
