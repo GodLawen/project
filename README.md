@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🎯 HabitTrack Bot
+=======
+# HabitTrack Bot — трекер привычек в Telegram
+>>>>>>> feature/conflict
 
 Telegram-бот «HabitTrack» — трекер привычек с напоминаниями, статистикой и streaks.
 
