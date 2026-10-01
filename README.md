@@ -29,4 +29,3 @@ Wiki проекта: <https://github.com/GodLawen/project/wiki>
 - `src/habittrack/` — код бота (`handlers/` — обработчики команд)
 - `tests/` — тесты
 - `.env.example` — пример настроек; реальный `.env` с токеном в Git не попадает
-тестовая строка
