@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Локальные настройки и секреты (токен бота!)
+.env
+*.session
+*.log
+!important.log
+
+# База данных
+*.sqlite3
+*.db
