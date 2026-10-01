@@ -29,3 +29,10 @@ Wiki проекта: <https://github.com/GodLawen/project/wiki>
 - `src/habittrack/` — код бота (`handlers/` — обработчики команд)
 - `tests/` — тесты
 - `.env.example` — пример настроек; реальный `.env` с токеном в Git не попадает
+
+## Как запустить
+
+1. Создайте бота у @BotFather и получите токен.
+2. Скопируйте `.env.example` в `.env` и вставьте токен.
+3. Установите зависимости: `pip install aiogram`.
+4. Запустите бота: `python -m src.habittrack`.
