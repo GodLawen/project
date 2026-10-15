@@ -1,10 +1,10 @@
 HEAD
-# 🎯 HabitTrack Bot
+# 🎯 GodLawenBot
 
-# HabitTrack Bot — трекер привычек в Telegram
+# GodLawen Bot — трекер привычек в Telegram
 feature/conflict
 
-Telegram-бот «HabitTrack» — трекер привычек с напоминаниями, статистикой и streaks.
+Telegram-бот «GodLawen» — трекер привычек с напоминаниями, статистикой и streaks.
 
 ## Цель
 
