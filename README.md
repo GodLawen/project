@@ -44,6 +44,16 @@ Wiki проекта: <https://github.com/GodLawen/project/wiki>
 ## Навигация
 
 - [Wiki](https://github.com/GodLawen/project/wiki)
+- 
+## Что умеет продукт сейчас
+
+Продукт находится на стадии замысла: определены концепция, структура репозитория и процесс разработки. Рабочий бот появится в следующих лабораторных.
+
+**Планируемые возможности MVP:** регистрация, добавление привычек, напоминания, отметки выполнения, streaks и статистика.
+
+## Definition of Done
+
+Задача считается выполненной, если изменения слиты в `main` через Pull Request после ревью, функция протестирована, документация обновлена, критерии приёмки выполнены. Подробнее: [Development](https://github.com/GodLawen/project/wiki/Development).
 - [Концепция](https://github.com/GodLawen/project/wiki/Concept)
 - [Идеи](https://github.com/GodLawen/project/wiki/Ideas)
 - [Заинтересованные стороны](https://github.com/GodLawen/project/wiki/Stakeholders)
