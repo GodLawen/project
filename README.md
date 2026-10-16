@@ -1,8 +1,8 @@
-HEAD
+
 # 🎯 GodLawenBot
 
 # GodLawen Bot — трекер привычек в Telegram
-feature/conflict
+
 
 Telegram-бот «GodLawen» — трекер привычек с напоминаниями, статистикой и streaks.
 
