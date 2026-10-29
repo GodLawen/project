@@ -1,0 +1,33 @@
+@startuml
+title HabitTrack — HLD (компонентная диаграмма)
+
+actor "Пользователь" as User
+actor "Администратор" as Admin
+
+cloud "Telegram Bot API" as TG
+
+rectangle "HabitTrack Bot (Python, aiogram)" as BOT {
+  component "Обработчики команд\n(/start, /add, /done, /stats)" as H
+  component "Сервис привычек\nи streaks" as S
+  component "Планировщик\nнапоминаний" as SCH
+  component "Сервис статистики" as ST
+  component "Админ-модуль" as ADM
+}
+
+database "PostgreSQL" as DB
+cloud "Хранилище\nрезервных копий" as BK
+
+User --> TG : сообщения, команды, кнопки
+Admin --> TG : админ-команды
+TG --> H : обновления (updates)
+H --> S
+H --> ST
+H --> ADM
+S --> DB : чтение / запись
+ST --> DB : чтение
+ADM --> DB : чтение
+SCH --> S : привычки к напоминанию
+SCH --> TG : отправка напоминаний
+TG --> User : ответы и напоминания
+DB --> BK : ежедневный бэкап
+@enduml
